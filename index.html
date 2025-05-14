@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Ayam Segar Jaya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="img/Logo.png.jpg" alt="Logo Toko" class="logo" />
+      <h1 class="judul">Toko Ayam Segar Jaya</h1>
+    </header>
+
+    <div class="items" id="item-list">
+      <!-- Daftar ayam akan dimuat oleh script.js -->
+    </div>
+
+    <div class="total">
+      Total: <span id="total-harga">Rp 0</span>
+    </div>
+
+    <button id="beli-btn">Beli via WhatsApp</button>
+  <div id="popup" class="popup">
+    <p>Menuju WhatsApp...</p>
+  </div>
+  <section class="accordion">
+    <details>
+      <summary>❓ Pertanyaan Umum (FAQ)</summary>
+      <div class="isi-box">
+        <p><strong>Apakah bisa bayar di tempat (COD)?</strong><br>Ya, kami melayani pembayaran COD untuk area tertentu.</p>
+        <p><strong>Apakah bisa pesan via chat dulu?</strong><br>Tentu, silakan klik tombol "Tanya Dulu" di bawah ini.</p>
+        <p><strong>Metode pembayaran apa saja yang tersedia?</strong><br>Kami menerima pembayaran melalui COD, transfer bank (BCA, BRI), dan QRIS.</p>
+        <button id="tanya-btn">Tanya Dulu via WhatsApp</button>
+      </div>
+    </details>
+  
+    <details>
+      <summary>💳 Metode Pembayaran</summary>
+      <div class="isi-box">
+        <ul>
+          <li>✅ COD (Bayar di Tempat)</li>
+          <li>✅ Transfer Bank (BCA, BRI)</li>
+          <li>✅ QRIS (LinkAja, OVO, Gopay, dll)</li>
+        </ul>
+        <p>QRIS akan dikirim otomatis saat Anda memesan via WhatsApp.</p>
+      </div>
+    </details>
+  </section>
+
+  <footer class="watermark">
+    &copy; Toko Ayam Segar Jaya - Dibuat pada 14 Mei 2025
+  </footer>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
