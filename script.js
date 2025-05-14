@@ -2,19 +2,19 @@ const data = [
     {
       nama: "Paha Ayam",
       harga: 15000,
-      stok: 5,
+      stok: 3,
       gambar: "img/Paha.jpg"
     },
     {
       nama: "Dada Ayam",
       harga: 17000,
-      stok: 3,
+      stok: 5,
       gambar: "img/Dada.jpg"
     },
     {
       nama: "Sayap Ayam",
       harga: 13000,
-      stok: 0, // contoh stok habis
+      stok: 8, // contoh stok habis
       gambar: "img/Sayap.jpg"
     }
   ];
